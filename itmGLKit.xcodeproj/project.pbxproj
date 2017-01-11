@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88834F7A1E24789A00596CC3 /* itmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88834F791E24789A00596CC3 /* itmModel.swift */; };
+		88834F7C1E24797C00596CC3 /* triangleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88834F7B1E24797C00596CC3 /* triangleModel.swift */; };
 		88EE30A31E237BF800B03DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE30A21E237BF800B03DEA /* AppDelegate.swift */; };
 		88EE30A51E237BF800B03DEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE30A41E237BF800B03DEA /* ViewController.swift */; };
 		88EE30A81E237BF800B03DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE30A61E237BF800B03DEA /* Main.storyboard */; };
@@ -17,6 +19,7 @@
 		88EE30D41E237C7500B03DEA /* SimpleFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 88EE30D21E237C7500B03DEA /* SimpleFragmentShader.glsl */; };
 		88EE30D51E237C7500B03DEA /* SimpleVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 88EE30D31E237C7500B03DEA /* SimpleVertexShader.glsl */; };
 		88EE30D71E237DE500B03DEA /* itmShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE30D61E237DE500B03DEA /* itmShader.swift */; };
+		88EE30D91E23802A00B03DEA /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE30D81E23802A00B03DEA /* Vertex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88834F791E24789A00596CC3 /* itmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itmModel.swift; sourceTree = "<group>"; };
+		88834F7B1E24797C00596CC3 /* triangleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = triangleModel.swift; sourceTree = "<group>"; };
 		88EE309F1E237BF800B03DEA /* itmGLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itmGLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE30A21E237BF800B03DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = itmGLKit/AppDelegate.swift; sourceTree = "<group>"; };
 		88EE30A41E237BF800B03DEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = itmGLKit/ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +58,7 @@
 		88EE30D21E237C7500B03DEA /* SimpleFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragmentShader.glsl; sourceTree = "<group>"; };
 		88EE30D31E237C7500B03DEA /* SimpleVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertexShader.glsl; sourceTree = "<group>"; };
 		88EE30D61E237DE500B03DEA /* itmShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itmShader.swift; sourceTree = "<group>"; };
+		88EE30D81E23802A00B03DEA /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,8 @@
 			children = (
 				88EE30D11E237C6100B03DEA /* Shaders */,
 				88EE30D61E237DE500B03DEA /* itmShader.swift */,
+				88EE30D81E23802A00B03DEA /* Vertex.swift */,
+				88834F791E24789A00596CC3 /* itmModel.swift */,
 			);
 			path = itmGLKit;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 				88EE30A91E237BF800B03DEA /* Assets.xcassets */,
 				88EE30AB1E237BF800B03DEA /* LaunchScreen.storyboard */,
 				88EE30AE1E237BF800B03DEA /* Info.plist */,
+				88834F7B1E24797C00596CC3 /* triangleModel.swift */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -290,7 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EE30A51E237BF800B03DEA /* ViewController.swift in Sources */,
+				88834F7C1E24797C00596CC3 /* triangleModel.swift in Sources */,
+				88EE30D91E23802A00B03DEA /* Vertex.swift in Sources */,
 				88EE30A31E237BF800B03DEA /* AppDelegate.swift in Sources */,
+				88834F7A1E24789A00596CC3 /* itmModel.swift in Sources */,
 				88EE30D71E237DE500B03DEA /* itmShader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +554,7 @@
 				88EE30C91E237BF900B03DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88EE30CA1E237BF900B03DEA /* Build configuration list for PBXNativeTarget "itmGLKitTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +563,7 @@
 				88EE30CC1E237BF900B03DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88EE30CD1E237BF900B03DEA /* Build configuration list for PBXNativeTarget "itmGLKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +572,7 @@
 				88EE30CF1E237BF900B03DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
